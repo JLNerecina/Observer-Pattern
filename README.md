@@ -38,4 +38,4 @@ The system comprises two main components: NewsAgency and Subscriber.
     -Ensure that the implementation follows object-oriented design principles and promotes loose coupling between the news agency and subscribers.
 
 ## Class Diagram
-![image](https://github.com/JLNerecina/Observer-Pattern/UML_Simplified%20Hotel%20Management%20System.png)
+![image]((https://github.com/JLNerecina/Observer-Pattern/blob/main/Observer%20Pattern%20UML.png))
