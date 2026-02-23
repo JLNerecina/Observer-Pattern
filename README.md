@@ -182,42 +182,6 @@ agency.publishNews("Update: Stock market hits record high");
 
 ![Observer Pattern UML Diagram](https://github.com/JLNerecina/Observer-Pattern/blob/main/Observer%20Pattern%20UML.png)
 
-```
-                    ┌─────────────────┐
-                    │   Observer      │ (Interface)
-                    ├─────────────────┤
-                    │+ update()       │
-                    └─────────────────┘
-                           ▲
-              ┌────────────┼────────────┐
-              │            │            │
-         ┌────────────┐ ┌──────────┐ ┌──────────────────┐
-         │ Subscriber │ │ MobileApp│ │ EmailSubscriber  │
-         │            │ │ Subscr.  │ │                  │
-         └────────────┘ └──────────┘ └──────────────────┘
-
-
-                    ┌──────────────────┐
-                    │  Subject         │ (Interface)
-                    ├──────────────────┤
-                    │+ attach()        │
-                    │+ detach()        │
-                    │+ notifyObservers()
-                    └──────────────────┘
-                           ▲
-                           │
-                   ┌───────────────────┐
-                   │  NewsAgency       │
-                   ├───────────────────┤
-                   │- subscribers[]    │
-                   │- latestNews       │
-                   ├───────────────────┤
-                   │+ publishNews()    │
-                   │+ attach()         │
-                   │+ detach()         │
-                   │+ notifyObservers()│
-                   └───────────────────┘
-```
 
 ## Supported Features
 
@@ -367,7 +331,8 @@ public class NewsAgency implements Subject {
 
 ---
 
+**Programmer**: John Lian R. Nerecina
+**Organixation**: New Era University
 **Last Updated**: February 2026  
 **Pattern**: Observer Pattern  
-**Organization**: Media Company  
 **Service**: Real-time News Subscription System
