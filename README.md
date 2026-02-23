@@ -333,6 +333,6 @@ public class NewsAgency implements Subject {
 
 **Programmer**: John Lian R. Nerecina
 **Organixation**: New Era University
-**Last Updated**: February 2026  
+**Last Updated**: December 2025  
 **Pattern**: Observer Pattern  
 **Service**: Real-time News Subscription System
